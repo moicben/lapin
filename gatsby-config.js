@@ -3,5 +3,8 @@ module.exports = {
     title: `Gatsby Sydney Ecommerce Theme`,
     siteUrl: `https://jamm.matter.design`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-netlify-cache',
+    `gatsby-plugin-netlify-cms`,
+  ],
 };
