@@ -4,7 +4,7 @@ module.exports = {
     siteUrl: `https://jamm.matter.design`,
   },
   plugins: [
-    'gatsby-plugin-netlify-cache',
     `gatsby-plugin-netlify-cms`,
+    // Supprimez 'gatsby-plugin-netlify-cache'
   ],
 };
